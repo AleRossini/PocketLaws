@@ -14,11 +14,11 @@ p {
 .darkblueback {
     background-color: #1c84c1;
     color: white;
+    padding-bottom: 470px;
 }
 
 .darksandback {
     background-color: #f6a664;
-    height: 40px;
 }
 .sandback {
     background-color: #ffd792;
@@ -35,8 +35,9 @@ p {
 }
 
 #smartphone img {
-
+    max-height: 600px;
     object-fit: scale-down;
+    margin-top: -500px;
 }
 
 .fa-user-check, .fa-hands-helping, .fa-rocket {
@@ -57,8 +58,15 @@ p {
 }
 
 .btn:hover {
-    border: #1c84c1;
+    background-color: #f6a664;
     color: white;
 }
 
-
+@media screen and (min-width: 400px) {
+    #smartphone img {
+        margin-left: 80px
+    }
+    .darkblueback {
+        padding-bottom: 540px;
+    }
+}
