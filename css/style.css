@@ -1,0 +1,64 @@
+a {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+p {
+    color: #5c5c5c;
+}
+
+.darkblueback {
+    background-color: #1c84c1;
+    color: white;
+}
+
+.darksandback {
+    background-color: #f6a664;
+    height: 40px;
+}
+.sandback {
+    background-color: #ffd792;
+}
+
+#logo img {
+    width: 180px;
+    object-fit: scale-down;
+}
+
+#googlebtn img {
+    width: 180px;
+    object-fit: cover;
+}
+
+#smartphone img {
+
+    object-fit: scale-down;
+}
+
+.fa-user-check, .fa-hands-helping, .fa-rocket {
+    font-size: 35px;
+    color: #1c84c1;
+}
+
+.fab {
+    vertical-align: middle;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: transparent;
+    color: #1e1e1e;
+}
+
+.btn:hover {
+    border: #1c84c1;
+    color: white;
+}
+
+
