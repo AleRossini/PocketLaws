@@ -14,7 +14,7 @@ p {
 .darkblueback {
     background-color: #1c84c1;
     color: white;
-    padding-bottom: 470px;
+    padding-bottom: 490px;
 }
 
 .darksandback {
@@ -57,12 +57,12 @@ p {
     color: #1e1e1e;
 }
 
-.btn:hover {
+.btn:hover, .btn:active {
     background-color: #f6a664;
     color: white;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
     #smartphone img {
         margin-left: 80px
     }
