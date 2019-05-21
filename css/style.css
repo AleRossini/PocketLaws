@@ -14,12 +14,10 @@ h1 {
 .darkblueback {
     background-color: #1c84c1;
     color: white;
-    padding-bottom: 490px;
+    background-image: linear-gradient(#1c84c1 90%, #f6a664 10%);
+    overflow-x: hidden;
 }
 
-.darksandback {
-    background-color: #f6a664;
-}
 .sandback {
     background-color: #ffd792;
 }
@@ -37,7 +35,7 @@ h1 {
 #smartphone img {
     max-height: 600px;
     object-fit: scale-down;
-    margin-top: -500px;
+    margin-left: 75px
 }
 
 .fa-user-check, .fa-hands-helping, .fa-rocket {
@@ -60,13 +58,4 @@ h1 {
 .btn:hover, .btn:active {
     background-color: #f6a664;
     color: white;
-}
-
-@media screen and (min-width: 500px) {
-    #smartphone img {
-        margin-left: 80px
-    }
-    .darkblueback {
-        padding-bottom: 540px;
-    }
 }
